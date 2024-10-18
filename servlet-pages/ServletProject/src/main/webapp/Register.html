@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="Register.css">
+
+</head>
+<body>
+    <form action="/register" method="post">
+        <h2>Registration Form</h2><br><br>
+
+        <!-- First Name -->
+        <label>First Name</label><br>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <!-- Last Name -->
+        <label >Last Name</label><br>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+        
+        <label >password</label><br>
+        <input type="password" name="password"><br><br>
+        
+        <label>Email</label><br>
+        <input type="email" placeholder="enter email" name="Email" required><br><br>
+
+        <label>Phone Number</label><br>
+        <input type="tel" placeholder="Enter the number" name="phone_number" required><br><br>
+
+        <label>DOB</label><br>
+        <input type="date" name="DOB" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label >Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label >Female</label><br><br>
+        
+        <label >Graduation Passing Year</label><br>
+        <select name="graduationYear" required>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select><br><br>
+        
+        <label>Specification</label><br>
+        <select name="branch" required>
+            <option value="BE Engineering">BE Engineering</option>
+            <option value="BCom">B.Com</option>
+            <option value="BCA">BCA</option>
+            <option value="BSC">BSC</option>
+            <option value="BA">BA</option>
+            <option value="BBA">BBA</option>	
+        </select><br><br>
+
+        <label>Semester</label><br>
+        <input type="number" name="semester" required><br><br>
+
+        <label>10th Percentage</label><br>
+        <input type="number" name="tenth" required><br><br>
+
+        <label>12th Percentage</label><br>
+        <input type="number" name="twelfth" required><br><br>
+
+        <!-- Submit Button -->
+<button class="submit-button"  onclick="href='Login.html';" >Submit</button>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.submit-button{
+    background-color:green;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+     margin-left: 20px;
+}
+    
+        body {
+            text-align: center;
+            background-color: rgb(214, 214, 214);
+        }
+        form {
+            padding: 20px;
+            border-radius: 3px;
+/*             border-style: double;
+ */            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            background-color: white;
+/*             font-style: normal;
+ */         border-bottom-left-radius: 2%;    
+            border-bottom-right-radius: 2%;
+            border-top-left-radius: 2%;
+            border-top-right-radius: 2%;
+               
+ 
+ }
+        
